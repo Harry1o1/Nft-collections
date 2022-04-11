@@ -2,29 +2,38 @@ const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 const { NETWORK } = require(`${basePath}/constants/network.js`);
 
-const network = NETWORK.eth;
+const network = NETWORK.sol;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
+const namePrefix = "Your Collectionop";
+const description = "Remember to replace this descriptionopiph";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
-  symbol: "YC",
+  symbol: "CD",
   seller_fee_basis_points: 1000, // Define how much % you want from secondary market sales 1000 = 10%
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 100,
+      address: "AHHAiKR2m4Z4LKxZhrxWcGca5mwrVQTqo4E4wh5eY95x",
+      share: 40,
     },
+    {
+      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      share: 30,
+    },
+    {
+      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
+      share: 30,
+    },
+    
   ],
 };
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 39,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
@@ -33,11 +42,41 @@ const layerConfigurations = [
       { name: "Shine" },
       { name: "Bottom lid" },
       { name: "Top lid" },
+      
+      
+    ],
+  },
+    {
+    growEditionSizeTo: 39,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Eyeball" },
+      { name: "Eye color" },
+      { name: "Iris" },
+      { name: "Shine" },
+      { name: "Bottom lid" },
+      
+      
+      
+    ],
+  },
+    {
+    growEditionSizeTo: 19,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Eyeball" },
+      { name: "Eye color" },
+      { name: "Iris" },
+      { name: "Shine" },
+      
+   
+      
+      
     ],
   },
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
@@ -78,7 +117,15 @@ const background = {
   default: "#000000",
 };
 
-const extraMetadata = {};
+const extraMetadata = {
+  
+  collection:{
+    
+    name:"Hello bro",
+    family:"My nfts"
+    
+  },
+};
 
 const rarityDelimiter = "#";
 
