@@ -1,4 +1,4 @@
-# Logs
+# LogsLogsLogsLogs
 
 logs
 _.log
@@ -45,12 +45,12 @@ bower_components
 
 # Compiled binary addons (https://nodejs.org/api/addons.html)
 
-build/Release
+build/ReleaseRelej
 
 # Dependency directories
 
-build/
-dist/
+
+distdist   
 node_modules/
 jspm_packages/
 
