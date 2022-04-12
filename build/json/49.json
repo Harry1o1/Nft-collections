@@ -1,0 +1,50 @@
+{
+  "name": "Crypto Dragon #49",
+  "symbol": "CD",
+  "description": "Cripti dragon nfts made by Emon plus Doraemon lover Man from Earth",
+  "seller_fee_basis_points": 1000,
+  "image": "49.png",
+  "external_url": "https://www.youtube.com/c/hashlipsnft",
+  "edition": 49,
+  "collection": {
+    "name": "Hello bro",
+    "family": "My nfts"
+  },
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Black"
+    },
+    {
+      "trait_type": "Eyeball",
+      "value": "Red"
+    },
+    {
+      "trait_type": "Eye color",
+      "value": "Yellow"
+    },
+    {
+      "trait_type": "Iris",
+      "value": "Large"
+    },
+    {
+      "trait_type": "Shine",
+      "value": "Shapes"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "49.png",
+        "type": "image/png"
+      }
+    ],
+    "category": "image",
+    "creators": [
+      {
+        "address": "9etfCNsvANBijbFJorJ1d9Lw34CmGqaXsjDpbQeGgR1b",
+        "share": 100
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 {
-  "name": "Your Collectionop #6",
+  "name": "Crypto Dragon #6",
   "symbol": "CD",
-  "description": "Remember to replace this descriptionopiph",
+  "description": "Cripti dragon nfts made by Emon plus Doraemon lover Man from Earth",
   "seller_fee_basis_points": 1000,
   "image": "6.png",
   "external_url": "https://www.youtube.com/c/hashlipsnft",
@@ -17,11 +17,11 @@
     },
     {
       "trait_type": "Eyeball",
-      "value": "White"
+      "value": "Red"
     },
     {
       "trait_type": "Eye color",
-      "value": "Yellow"
+      "value": "Green"
     },
     {
       "trait_type": "Iris",
@@ -30,14 +30,6 @@
     {
       "trait_type": "Shine",
       "value": "Shapes"
-    },
-    {
-      "trait_type": "Bottom lid",
-      "value": "High"
-    },
-    {
-      "trait_type": "Top lid",
-      "value": "High"
     }
   ],
   "properties": {
@@ -50,16 +42,8 @@
     "category": "image",
     "creators": [
       {
-        "address": "AHHAiKR2m4Z4LKxZhrxWcGca5mwrVQTqo4E4wh5eY95x",
-        "share": 40
-      },
-      {
-        "address": "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-        "share": 30
-      },
-      {
-        "address": "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-        "share": 30
+        "address": "9etfCNsvANBijbFJorJ1d9Lw34CmGqaXsjDpbQeGgR1b",
+        "share": 100
       }
     ]
   }
