@@ -24,7 +24,7 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 39,
+    growEditionSizeTo: 50,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
@@ -37,34 +37,7 @@ const layerConfigurations = [
       
     ],
   },
-    {
-    growEditionSizeTo: 39,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      
-      
-      
-    ],
-  },
-    {
-    growEditionSizeTo: 100,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      
-   
-      
-      
-    ],
-  },
+
 ];
 
 const shuffleLayerConfigurations = true;
@@ -112,8 +85,8 @@ const extraMetadata = {
   
   collection:{
     
-    name:"Hello Emon bro",
-    family:"My nfts collections from Bangladesh"
+    name:"Hello Emon bro updated",
+    family:"My nfts new collections from Bangladesh"
     
   },
 };
