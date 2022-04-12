@@ -5,8 +5,8 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.sol;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collectionop";
-const description = "Remember to replace this descriptionopiph";
+const namePrefix = "Crypto Dragon";
+const description = "Cripti dragon nfts made by Emon plus Doraemon lover Man from Earth";
 const baseUri = "ipfs://NewUriToReplace";
 
 const solanaMetadata = {
@@ -15,18 +15,9 @@ const solanaMetadata = {
   external_url: "https://www.youtube.com/c/hashlipsnft",
   creators: [
     {
-      address: "AHHAiKR2m4Z4LKxZhrxWcGca5mwrVQTqo4E4wh5eY95x",
-      share: 40,
+      address: "9etfCNsvANBijbFJorJ1d9Lw34CmGqaXsjDpbQeGgR1b",
+      share: 100,
     },
-    {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 30,
-    },
-    {
-      address: "7fXNuer5sbZtaTEPhtJ5g5gNtuyRoKkvxdjEjEnPN4mC",
-      share: 30,
-    },
-    
   ],
 };
 
@@ -61,7 +52,7 @@ const layerConfigurations = [
     ],
   },
     {
-    growEditionSizeTo: 19,
+    growEditionSizeTo: 100,
     layersOrder: [
       { name: "Background" },
       { name: "Eyeball" },
